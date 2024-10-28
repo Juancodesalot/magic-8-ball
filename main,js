@@ -1,0 +1,31 @@
+var username = "Juan";
+
+if (username === "Juan") {
+    console.log(`Hello, ${username}!`);
+} else (console.log("Hello!"));
+
+var userQuestion = `Will ${username} be rich by the end of this year?`;
+
+console.log(userQuestion);
+
+var randomNumber = Math.floor(Math.random() * 8);
+console.log("This is a random number",randomNumber);
+
+var eightball="";
+
+if (randomNumber === 0) {
+    console.log("It is certain!");
+} else if (randomNumber ===1) {
+    console.log("It is decidedly so")
+} else if ( randomNumber === 2 ) {
+    console.log("Reply hazy try again")
+    // i want to try something here in a sec
+} else if( randomNumber === 3) {
+    console.log("cannot predict now")
+} else if( randomNumber === 4) {
+    console.log("Do not count on it")
+} else if( randomNumber === 5) {
+    console.log("My sources tell me no")
+} else if( randomNumber === 6) {
+    console.log("outlook not so good")
+} else ( console.log(`Shittttttt ${username} of course!`))
